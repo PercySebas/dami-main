@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">dami</string>
+    <string name="title_main">CasaTech</string>
+    <string name="title_secondary">Productos</string>
+    <string name="title_third">Producto</string>
+    <string name="agregar">Agregar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nombre">Nombre</string>
+    <string name="precio">Precio</string>
+    <string name="stokc">Stokc</string>
+    <string name="confirmacion">Confirmacion</string>
+    <string name="mensaje_siguiente">Por favor, confirmar que quiere ver los productos de la categoria %s </string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="mensaje_ver_prod">Por favor, confirmar que quiere ver más acerca del producto %s </string>
+    <string name="campo_requerido">Campo Requerido</string>
+    <string name="cantidad">Cantidad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

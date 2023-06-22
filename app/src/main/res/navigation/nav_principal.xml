@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_principal"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.dami.ui.view.fragment.MainFragment"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_productosXCateFragment"
+            app:destination="@id/productosXCateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productosXCateFragment"
+        android:name="com.example.dami.ui.view.fragment.ProductosXCateFragment"
+        android:label="@string/title_secondary"
+        tools:layout="@layout/fragment_productos_x_cate" >
+        <argument
+            android:name="idCategoria"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_productosXCateFragment_to_detProductoFragment"
+            app:destination="@id/detProductoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detProductoFragment"
+        android:name="com.example.dami.ui.view.fragment.DetProductoFragment"
+        android:label="@string/title_third"
+        tools:layout="@layout/fragment_det_producto" >
+        <argument
+            android:name="producto"
+            app:argType="com.example.dami.entity.Producto"
+            app:nullable="true" />
+        <argument
+            android:name="idCategoria"
+            app:argType="integer" />
+    </fragment>
+</navigation>

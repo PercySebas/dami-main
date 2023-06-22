@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:title="Listado de Categorias"
+        />
+
+    <item
+        android:id="@+id/productosXCateFragment"
+        android:title="Listado de Productos"
+        />
+    <item
+        android:id="@+id/detProductoFragment"
+        android:title="Detalle de Producto"
+        />
+</menu>
